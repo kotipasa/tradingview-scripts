@@ -1,7 +1,5 @@
-//@version=4
-// Original content restored
-strategy("Original Script", overlay=true)
-smaLength = input(14, title="SMA Length")
-signal = close > sma(close, smaLength)
-if (signal)
-    strategy.entry("Buy", strategy.long)
+//@version=5
+indicator("Tradewar SPY Options Assistant", overlay=true, max_labels_count=500)
+// ══════════════════════════════════════════════════════════════════════════════
+// SECTION 1: INPUTS
+// ══════════════════════════════════════════════════════════════════════════════
