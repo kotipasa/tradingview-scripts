@@ -1,1 +1,7 @@
-a8735012a7c372e0942fa68ef56f25b31a5643ba
+//@version=4
+// Original content restored
+strategy("Original Script", overlay=true)
+smaLength = input(14, title="SMA Length")
+signal = close > sma(close, smaLength)
+if (signal)
+    strategy.entry("Buy", strategy.long)
