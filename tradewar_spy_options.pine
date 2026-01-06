@@ -1,6 +1,1 @@
-//@version=5
-indicator("Tradewar SPY Options Assistant", overlay=true, max_labels_count=500)
-
-
-/** ** Full source file is here so refactoring redundant logic is based upon shared helper modules functions created for any modules; particularly redirection_paths
- ...
+a8735012a7c372e0942fa68ef56f25b31a5643ba
